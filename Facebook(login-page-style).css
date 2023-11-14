@@ -1,0 +1,240 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(242, 243, 244);
+    height: 750px;
+
+}
+.p-con{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+    position: absolute;
+    left:17%;
+    transform: translateX(-50%);
+}
+h1{
+
+    color: rgb(6, 93, 222);
+    font-weight: 1000;
+    margin-bottom:5px ;
+}
+span{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+.add_con{
+
+    width: 130px;
+    height: 168px;
+    position: relative;
+    margin-left: 14px;
+    border-radius: 8px;
+    border:0.1px solid rgb(225, 224, 224);
+    
+}
+.add_con:hover{
+    box-shadow: 0.5px 0.5px 10px rgb(188, 186, 186);
+}
+.logo-con{
+    position: absolute;
+    top:78px;
+    left: 10px;
+    width: 180px;
+}
+.Profile-con{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:200px;
+    left: 10px;
+    
+   
+}
+.profile_pic_con{
+   
+    border-radius: 8px;
+    
+}
+.profile_pic_con:hover{
+    box-shadow: 0.5px 0.5px 10px rgb(188, 186, 186);
+}
+.image-con{
+    width: 130px;
+    height: 130px;
+   
+}
+img{
+    width: 130px;
+    height: 130px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.name-con{
+    height: 20px;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px 8px 8px 40px;
+}
+.plus-con{
+    background-color: rgb(250, 247, 247);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 130px;
+    width: 130px;
+}
+.plus-sign{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 28px;
+    background-color: rgb(0, 42, 255);
+    color: white;
+    padding: 5px 9px 5px 9px ;
+    font-size: 15px;
+    font-weight: 1000;
+}
+.addaccount-con{
+
+    height: 22px;
+    background-color: white;
+    color: rgb(24, 125, 226);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 8px 8px 8px 30px;
+   
+    
+    
+}
+.login-con{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 290px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10px 10px 14px;
+    background-color: white;
+    box-shadow: 0.2px 0.5px 15px rgb(202, 200, 200);
+    border-radius: 7px;
+    right:10%;
+    top:25%;
+    transform: translateX(-50%);
+}
+input{
+    width:270px;
+    height: 32px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 0.1px solid  rgb(208, 207, 207);
+    padding: 4px 4px 4px 10px;
+    font-size: 14px;
+   
+}
+.but1{
+    width:285px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 0.2px solid  black;
+    padding: 4px 4px 4px 10px;
+    background-color: rgba(45, 108, 242, 0.897);
+    color: white;
+    border: none;
+    
+}
+.create-but{
+     width: 155px;
+     height: 40px;
+     border: none;
+     background-color: rgb(49, 173, 49);
+     padding: 10px 10px 10px 10px;
+     font-size: 13.5px;
+     font-weight: bold;
+     border-radius: 7px;
+     position: absolute;
+     top: 224px;
+     left: 80px;
+     right: 20px;
+     bottom: 30px;
+     color: white;
+     
+}
+.create-but:hover{
+    background-color: rgb(33, 151, 33);
+}
+.create-but-con{
+    align-items: center;
+    justify-content: center;  
+}
+.password-con{ 
+    position: absolute;
+    top:160px;
+    left:105px;
+    right: 20px;
+    bottom: 50px;
+    z-index: 300;
+}
+.page-p-con{
+    position: absolute;
+    right: 23.55%;
+    top: 73%;
+    font-size: 13px;
+    width: 258px;
+    height: 22px;
+}
+.password-p{
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 11px;
+    color: rgb(59, 89, 239);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.plus-sign:hover,
+.addaccount-con:hover,
+.but1:hover,
+.create-but:hover,
+.password-con:hover,
+.page-p-con{
+
+    cursor: pointer;
+}
+.cross-sign{
+
+    position: absolute;
+    background-color:rgba(0,0,0,0.4);
+    color: white;
+    left:18.5%;
+    top:33%;
+    transform: translateX(-50%);
+    border-radius:12px ;
+    padding: 1px 3px 1px 3px;
+    font-size: 9px;
+}
+.cross-sign:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 11px;
+}
+.underline{
+    display: inline-block;
+    text-align: center;
+    width: 230px;
+    height: 1px;
+    background-color: rgb(173, 173, 173);
+    margin-top: 17px;
+    margin-left: -60px;
+}
+
